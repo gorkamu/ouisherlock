@@ -1,0 +1,29 @@
+.result__item-container {
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;  
+
+    span {
+        font-size: 16px;
+    }
+
+    a {
+        font-weight: 700;
+        font-size: 16px;
+        color: #212529;
+        cursor: pointer;
+        padding: .25em .4em;
+        border-radius: .25rem;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            text-decoration: none;
+            background-color: $light-grey;
+        }
+    }
+}
+
+.result__not-found {
+    color: #dc3545;
+}
