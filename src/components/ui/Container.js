@@ -12,7 +12,8 @@ export const Container = () => {
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
                         <p>Hunt down social media accounts by username across <u>more than 200</u> social networks</p>
-                        <p>This is the graphical implementation of <a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener noreferrer">this project</a></p>
+                        <p>This project is based on <a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener noreferrer">this one</a></p>
+                        <p>Oui Sherlock implemented by <a href="https://okboomer.sh" target="_blank" rel="noopener noreferrer">@okboomer</a></p>
                     </div>
                 </div> 
                 <Form />

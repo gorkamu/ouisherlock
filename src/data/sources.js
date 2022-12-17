@@ -1,4 +1,8 @@
 export const sources = [
+   {
+      name: "Twitter",
+      link: "https://mobile.twitter.com/$1"
+   },
     {
        name: "2Dimensions",
        link: "https://2Dimensions.com/a/$1"
@@ -847,10 +851,7 @@ export const sources = [
        name: "Twitch",
        link: "https://www.twitch.tv/$1"
     },
-    {
-       name: "Twitter",
-       link: "https://mobile.twitter.com/$1"
-    },
+    
     {
        name: "Typeracer",
        link: "https://data.typeracer.com/pit/profile?user=$1"

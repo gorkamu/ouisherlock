@@ -9,6 +9,7 @@ export const Result = ({ serviceName, link, status }) => {
         return (            
             <div className="result__item-container">
                 <span className="badge badge-secondary result__item-service-name">{ serviceName }</span>
+                { status === 500 && <span className="badge result__not-found">Error CORS</span> }                
                 {
                     status === 404 ?
                         <span className="badge result__not-found">Not found</span>

@@ -19,7 +19,7 @@ export const ResultsContainer = () => {
     
     return (
         <div className="row">
-            <div className="col-md-6 offset-md-4 col-sm-12 mt-3 mb-3">
+            <div className="col-md-8 offset-md-3 col-sm-12 mt-3 mb-3">
                 {
                     Object.entries(services).map( (service, i) => {
                         return <Result serviceName={ service[0] } link={ service[1].link } status={ service[1].status} key={ i }/>
