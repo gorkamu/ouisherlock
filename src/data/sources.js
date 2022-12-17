@@ -950,7 +950,7 @@ export const sources = [
     },
     {
        name: "YouTube",
-       link: "https://www.youtube.com/$1"
+       link: "https://www.youtube.com/@$1"
     },
     {
        name: "Zhihu",
