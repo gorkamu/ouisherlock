@@ -12,7 +12,6 @@ export const ResultsContainer = () => {
 
     useEffect(() => {
         if(query) {
-            console.log("Rendering Container");
             dispatch(startBulkLoad());
         }        
     }, [dispatch, query]);

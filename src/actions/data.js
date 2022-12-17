@@ -17,7 +17,6 @@ export const startBulkLoad = () => {
             const e = sources[i];
             const url = e.link.trim().replace("$1", username)
             const endpoint = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
-            console.log(endpoint)
 
             fetch(endpoint)
                 .then(response => {
