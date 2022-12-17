@@ -6,7 +6,7 @@ import { install } from 'ga-gtag';
 import env from "react-dotenv";
 
 export const SherlockApp = () => {
-    install(env.GA_TAG);
+    install(env.GA_TAG || '');
 
     return (
         <Provider store={ store }>
